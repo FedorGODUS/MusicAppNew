@@ -5,7 +5,6 @@ create table users
     password varchar,
     city_id integer,
     subscription_id integer,
-    author integer,
     role integer,
     foreign key  (city_id) references cities(id),
     foreign key  (subscription_id) references subscriptions(id),
