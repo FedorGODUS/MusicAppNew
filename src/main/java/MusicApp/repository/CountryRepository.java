@@ -1,6 +1,6 @@
-package repository;
+package MusicApp.repository;
 
-import model.Country;
+import MusicApp.model.Country;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

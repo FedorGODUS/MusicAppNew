@@ -1,6 +1,6 @@
-package repository;
+package MusicApp.repository;
 
-import model.City;
+import MusicApp.model.City;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

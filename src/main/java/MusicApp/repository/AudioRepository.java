@@ -1,6 +1,6 @@
-package repository;
+package MusicApp.repository;
 
-import model.Audio;
+import MusicApp.model.Audio;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package model;
+package MusicApp.model;
 
 import lombok.Data;
 
@@ -6,11 +6,10 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name = "authors")
-public class Author {
+@Table(name = "countries")
+public class Country {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
-    private String name;
-    private String description;
+    private String countryName;
 }

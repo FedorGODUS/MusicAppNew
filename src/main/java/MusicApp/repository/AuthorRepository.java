@@ -1,6 +1,6 @@
-package repository;
+package MusicApp.repository;
 
-import model.Author;
+import MusicApp.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
